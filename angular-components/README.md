@@ -1,6 +1,6 @@
 # AngularComponents
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.<br/> Header And Footer components were added to the 'hello-world' project.
 
 ## Development server
 
