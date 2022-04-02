@@ -1,0 +1,23 @@
+<main class="container">
+    <h1>Employee Info</h1>
+    <div class="info">
+        <div class="emp one">
+            <button type="button" (click)="getInfofromService1()">Employee1</button>
+            <ul class="list-group">
+                <li *ngFor="let info of infoReceived1">{{ info }}</li>
+            </ul>
+        </div>
+        <div class="emp two">
+            <button type="button" (click)="getInfofromService2()">Employee2</button>
+            <ul class="list-group">
+                <li *ngFor="let info of infoReceived2">{{ info }}</li>
+            </ul>
+        </div>
+        <div class="emp three">
+            <button type="button" (click)="getInfofromService3()">Employee3</button>
+            <ul class="list-group">
+                <li *ngFor="let info of infoReceived3">{{ info }}</li>
+            </ul>
+        </div>
+    </div>
+</main>

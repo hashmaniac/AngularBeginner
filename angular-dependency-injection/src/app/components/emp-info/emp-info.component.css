@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    background: linear-gradient(260deg, #dd1b16, #dd1b16 50%, #0582f4 0);
+}
+
+h1 {
+    text-align: center;
+    color: #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}   
+
+.emp {
+    margin: 20px;
+}
+
+.one, .two, .three {
+    float: left;
+}
+
+.list-group {
+    list-style: none;
+    padding: 6px;
+    color: #dbdbdb;
+    border: 1px #dbdbdb solid;
+}
+
+button {
+    background-color: #ccc;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 6px;
+}
