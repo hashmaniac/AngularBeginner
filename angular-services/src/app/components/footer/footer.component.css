@@ -1,0 +1,18 @@
+footer {
+    border-top: 1px solid #dbdbdb;
+    width: 100%;
+    background: #0582f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contents {
+    text-align: center;
+    color: #dbdbdb;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+h2, h3 {
+    margin: 0;
+    font-weight: bolder;
+}

@@ -1,1 +1,30 @@
-<p>emp-info works!</p>
+<main class="container">
+    <h1>Employee Info</h1>
+    <div class="info">
+        <div class="emp one">
+            <button type="button" (click)="getInfoFromService1()">Employee1</button>
+            <ul class="list-group">
+                <li *ngFor="let info of infoRecieved1">{{ info }}</li>
+            </ul>
+        </div>
+        <div class="emp two">
+            <button type="button" (click)="getInfoFromService2()">Employee2</button>
+            <ul class="list-group">
+                <li *ngFor="let info of infoRecieved2">{{ info }}</li>
+            </ul>
+        </div>
+        <div class="emp three">
+            <button type="button" (click)="getInfoFromService3()">Employee3</button>
+            <ul class="list-group">
+                <li *ngFor="let info of infoRecieved3">{{ info }}</li>
+            </ul>
+        </div>
+    </div>
+
+    <form #frm="ngForm" (ngSubmit)="updateInfo(frm)">
+        <div>
+            <input type="text" name="location" value="" placeholder="Add employee Info" ngModel>
+            <button type="submit" name="button">></button>
+        </div>
+    </form>
+</main>
