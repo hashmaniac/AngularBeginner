@@ -1,0 +1,10 @@
+<div class="main" [ngSwitch]="date">
+  <div class="view" *ngSwitchCase=0><h3>It's Sunday, Prep for a new Week!</h3></div>
+  <div class="view" *ngSwitchCase=1><h3>It's Monday, Let's do this!</h3></div>
+  <div class="view" *ngSwitchCase=2><h3>It's Tuesday, Another day to be great!</h3></div>
+  <div class="view" *ngSwitchCase=3><h3>It's Wednesday, Yeah we made it this far!</h3></div>
+  <div class="view" *ngSwitchCase=4><h3>It's Thursday, the eve of Friday, Yeah!</h3></div>
+  <div class="view" *ngSwitchCase=5><h3>It's Friday, TGIF!</h3></div>
+  <div class="view" *ngSwitchCase=6><h3>It's Saturday, You Deserve a rest! </h3></div>
+  <div class="view" *ngSwitchDefault><h3>It's..., We don't know what day it is either!</h3></div>
+</div>

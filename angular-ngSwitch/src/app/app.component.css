@@ -1,0 +1,18 @@
+* {
+    margin: 0%;
+}
+
+.main {
+    justify-items: center;
+    height: 100vh;
+    background: linear-gradient(260deg, #dd1b16, #dd1b16 50%, #0582f4 0);
+}
+
+.view {
+    text-align: center;
+    padding-top: 60px;
+}
+
+h3 {
+    color: #dbdbdb;
+}
