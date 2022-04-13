@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    background: linear-gradient(260deg, #dd1b16, #dd1b16 50%, #0582f4 0);
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+
+.left {
+    left: 0;
+}
+
+.text {
+    color: #dbdbdb;
+    font-size: 400%;
+}
+
+.right {
+    right: 0;
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    position: relative;
+    transform: translate(-50%, -50%);
+}

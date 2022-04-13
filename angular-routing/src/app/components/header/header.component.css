@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    background: #dd1b16;
+    height: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 5px;
+}
+
+.title {
+    text-align: center;
+    color: #dbdbdb;
+    font-weight: bolder;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 8px;
+}
+
+.nav {
+    text-align: center;
+    color: #dbdbdb;
+}
